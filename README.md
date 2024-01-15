@@ -13,8 +13,23 @@
 4. 有啥问题或者建议以及欢迎交流👉<huangzhenyang23@mails.ucas.ac.cn>
   
 ## 应该在哪里写这个呢
-1. 无所不能的vscode + marp扩展（vscode扩展商店一搜就有了）
-2. 别的编译法欢迎交流，目前我只会上面这个方法
+* 无所不能的vscode + marp扩展（vscode扩展商店一搜就有了）
+* 别的方法欢迎交流，目前我只会上面这个方法
+
+## 以下是配置和使用的非常具体的图文指南（24.01.15更新）
+### 教程环境：x64-win11（跟这个关系不大）
+1. 去官网下载[vscode](https://code.visualstudio.com/Download)
+2. 在vscode商店选择扩展，搜索marp并下载安装图示插件
+   ![img](./img/vscode01.png)
+3. 安装完成后重启一下vscode(我不记得要不要重启了)，按图示点击找到设置，搜索marp，把你的edge或者chrome路径填进去，这是渲染pdf用的，不需要渲染成pdf的话可以跳过这步
+   ![img](./img/vscode02.png)
+4. 接着用vscode打开你clone的文件夹，选中template.md，点击右上角画圈圈的图标，选择第二项(ps：如果vscode有别的markdown扩展建议先禁用掉)
+   ![img](./img/vscode03.png)
+5. 然后就会发现头几行代码从红色变成蓝色，然后你就可以点击画圈圈的按钮进行侧栏预览，开始编辑你的slide并实时看到更改了
+   ![img](./img/vscode04.png)
+6. 最后，你可以点击图示圈圈按钮的并选择第一行，就可以输出你需要的格式的slide了
+   ![img](./img/vscode05.png)
+7. 自此，你已经开始成为markdown写slide的高手了！
 
 ## 再具体点的用法
 1. img可以调整当前页开头的img属性；代码块可以调整代码页面开头的 pre 属性等等
